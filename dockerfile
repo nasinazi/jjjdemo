@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:21
 MAINTAINER Loong
 WORKDIR /
 ADD target/*.jar app.jar
